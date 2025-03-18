@@ -1,0 +1,556 @@
+{% extends 'base.html' %}
+{% block title %}Eknal Technologies{% endblock %}
+
+{% block content %}
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-color: black;">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Transforming Ideas into Digital Solutions</h1>
+
+            <p class="hero-text">
+              At Eknal Technologies, we specialize in delivering cutting-edge tech solutions tailored to your business needs. Whether you need a custom website, web application, or API development, we ensure innovation, efficiency, and scalability.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="/about" class="btn btn-primary">Explore Now</a>
+
+              <a href="/contact" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="https://i.ibb.co/S4DPRdcZ/ai-nuclear-energy-future-innovation-disruptive-technology.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="https://i.ibb.co/T97QKTp/4380747.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                   
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="https://i.ibb.co/jkT4X85r/7060468.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+    
+            <p class="section-subtitle" id="service-label">Our Services</p>
+    
+            <h2 class="h2 section-title">
+                Empowering Businesses with Cutting-Edge Technology Solutions
+            </h2>
+    
+            <ul class="grid-list">
+    
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">Website Development</h3>
+                        <p class="card-text">
+                            We design and develop custom websites that are responsive, SEO-optimized, and tailored to your brand.
+                        </p>
+                        <a class="btn-text">
+                            <!-- <span class="span">Learn More</span> -->
+                            <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
+                        </a>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <ion-icon name="code-outline" aria-hidden="true"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">Web Application Development</h3>
+                        <p class="card-text">
+                            Scalable and secure web applications powered by modern technologies like Django and React.
+                        </p>
+                        <a class="btn-text">
+                            <!-- <span class="span">Learn More</span> -->
+                            <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
+                        </a>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <ion-icon name="server-outline" aria-hidden="true"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">API Development & Integration</h3>
+                        <p class="card-text">
+                            Secure and efficient RESTful APIs for seamless system integrations and automation.
+                        </p>
+                        <a class="btn-text">
+                            <!-- <span class="span">Learn More</span> -->
+                            <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
+                        </a>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <ion-icon name="lock-closed-outline" aria-hidden="true"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">Secure Payments</h3>
+                        <p class="card-text">
+                            End-to-end encrypted payment solutions ensuring secure and seamless transactions.
+                        </p>
+                        <a class="btn-text">
+                            <!-- <span class="span">Learn More</span> -->
+                            <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
+                        </a>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">Daily Updates</h3>
+                        <p class="card-text">
+                            Real-time data synchronization and automated updates to keep you informed.
+                        </p>
+                        <a class="btn-text">
+                            <!-- <span class="span">Learn More</span> -->
+                            <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
+                        </a>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <ion-icon name="bar-chart-outline" aria-hidden="true"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">Market Research</h3>
+                        <p class="card-text">
+                            Data-driven insights and AI-powered analytics to enhance business strategies.
+                        </p>
+                        <a class="btn-text">
+                            <!-- <span class="span">Learn More</span> -->
+                            <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
+                        </a>
+                    </div>
+                </li>
+    
+            </ul>
+    
+        </div>
+    </section>
+    
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+      
+          <figure class="about-banner">
+            <img src="https://i.ibb.co/Q3Nhj1Y2/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+      
+          <div class="about-content">
+      
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+      
+            <h2 class="h2 section-title">
+              We bring innovative solutions to help businesses thrive.
+            </h2>
+      
+            <ul>
+      
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+      
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+      
+                      <span class="span h5">Expertise in Modern Technologies</span>
+                    </button>
+                  </h3>
+      
+                  <p class="accordion-content">
+                    We leverage cutting-edge frameworks like <strong>Django</strong> to build secure, scalable, and high-performing applications that meet your business needs.
+                  </p>
+      
+                </div>
+              </li>
+      
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+      
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+      
+                      <span class="span h5">Tailored Solutions</span>
+                    </button>
+                  </h3>
+      
+                  <p class="accordion-content">
+                    Every business is unique, and so are our solutions. We customize each project to align perfectly with your goals, ensuring efficiency and effectiveness.
+                  </p>
+      
+                </div>
+              </li>
+      
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+      
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+      
+                      <span class="span h5">End-to-End Security</span>
+                    </button>
+                  </h3>
+      
+                  <p class="accordion-content">
+                    Security is at the core of our development process. From encrypted transactions to secure API integrations, we ensure your data is always protected.
+                  </p>
+      
+                </div>
+              </li>
+      
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+      
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+      
+                      <span class="span h5">Dedicated Support</span>
+                    </button>
+                  </h3>
+      
+                  <p class="accordion-content">
+                    Our team is always available to assist you, whether it’s for troubleshooting, enhancements, or guidance. We ensure smooth operation at every step.
+                  </p>
+      
+                </div>
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      --><section class="section feature" aria-labelledby="feature-label">
+  <div class="container">
+
+    <figure class="feature-banner">
+      <img src="https://i.ibb.co/VW0M1JFx/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+        class="w-100">
+    </figure>
+
+    <div class="feature-content">
+
+      <p class="section-subtitle" id="feature-label">Our Solutions</p>
+
+      <h2 class="h2 section-title">
+        Empowering businesses with cutting-edge digital solutions.
+      </h2>
+
+      <p class="section-text">
+        At <b>Eknal Technologies</b>, we specialize in crafting scalable, efficient, and secure digital solutions tailored to your business needs. From <b>web development</b> to <b>custom APIs</b>, we ensure seamless integration and performance.
+      </p>
+
+      <ul class="feature-list">
+
+        <li>
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span">
+              <b>Custom Website Development</b> – Stunning, fast, and SEO-optimized websites for businesses and startups.
+            </span>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span">
+              <b>Advanced Web Applications</b> – Dynamic and feature-rich web apps powered by <b>Django & React</b>.
+            </span>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span">
+              <b>API Development & Integrations</b> – Secure, high-performance APIs customized for your business workflows.
+            </span>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span">
+              <b>Scalable Solutions</b> – Our applications are built to <b>handle high traffic</b>, ensuring smooth performance.
+            </span>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+      
+          <p class="section-subtitle" id="project-label">Our Projects</p>
+      
+          <h2 class="h2 section-title">
+            We develop innovative solutions tailored to your business needs.
+          </h2>
+      
+          <p class="section-text">
+            At <b>Eknal Technologies</b>, we are committed to building powerful, scalable, and efficient applications that solve real-world problems. Our current projects are in active development, focusing on education, business management, and custom solutions.
+          </p>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="project-card">
+      
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="https://i.ibb.co/d0tHNh4m/eknal-bridge.jpg" width="560" height="350" loading="lazy"
+                    alt="Eknal Bridge - School Management System" class="img-cover">
+                </figure>
+      
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="/projects" class="card-title">Eknal Bridge - School Management System</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    A complete digital platform for schools, managing student records, attendance, fee payments, teacher assignments, and more.
+                  </p>
+      
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">In Development</span>
+                    </li>
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Education</span>
+                    </li>
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="project-card">
+      
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="https://i.ibb.co/27g2H1Jn/eknal-ms.jpg" width="560" height="350" loading="lazy"
+                    alt="Eknal Tuts - Learn the latest technologies" class="img-cover">
+                </figure>
+      
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="/projects" class="card-title">Eknal Tuts - Tech Learning Platform</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    Learn the latest technologies with hands-on, real-time experience from industry experts.
+                  </p>
+      
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">In Development</span>
+                    </li>
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Education & Training</span>
+                    </li>
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="project-card">
+      
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="https://i.ibb.co/27g2H1Jn/eknal-ms.jpg" width="560" height="350" loading="lazy"
+                    alt="Eknal MS - Business Management Services" class="img-cover">
+                </figure>
+      
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="/projects" class="card-title">Eknal MS - Business Management Solutions</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    We provide customized management solutions for clinics, restaurants, and businesses, streamlining operations and improving efficiency.
+                  </p>
+      
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">In Development</span>
+                    </li>
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Business & Management</span>
+                    </li>
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+          </ul>
+     
+        </div>
+      </section>
+      
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Need a custom-built application for your business?
+          </h2>
+
+          <a href="/contact" class="btn btn-primary">Contact Us</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+{% endblock %}

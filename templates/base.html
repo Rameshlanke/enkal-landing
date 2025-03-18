@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Eknal Technologies</title>
+  <meta name="title" content="Eknal Technologies">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="https://i.ibb.co/Q7XzPYQg/favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="https://i.ibb.co/S4DPRdcZ/ai-nuclear-energy-future-innovation-disruptive-technology.jpg">
+  <link rel="preload" as="image" href="https://i.ibb.co/T97QKTp/4380747.jpg">
+  <link rel="preload" as="image" href="https://i.ibb.co/jkT4X85r/7060468.jpg">
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg"> -->
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="/" class="logo">
+        <img src="https://i.ibb.co/99q9hzMK/logo-light.png" width="74" height="24" alt="Eknal Technologies home" class="logo-light">
+
+        <img src="https://i.ibb.co/99q9hzMK/logo-light.png" width="74" height="24" alt="Eknal Technologies home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="/" class="logo">
+            <img src="https://i.ibb.co/99q9hzMK/logo-light.png" width="74" height="24" alt="Eknal Technologies home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+            <li>
+                <a href="/" class="navbar-link">Home</a>
+              </li>
+    
+              <li>
+                <a href="/about" class="navbar-link">About</a>
+              </li>
+
+          <li>
+            <a href="/projects" class="navbar-link">Projects</a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li> -->
+
+          <li>
+            <a href="/contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@eknaltechnologies.in" class="contact-link">info@eknaltechnologies.in</a>
+
+          <a href="tel:919486801845" class="contact-link">(+91) 94868 01845</a>
+        </div>
+
+        <ul class="social-list">
+
+            <li>
+                <a href="https://www.facebook.com/eknaltechnologies/" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="linkedin.com/company/eknal-technologies/" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+    
+            
+    
+              <li>
+                <a href="https://www.instagram.com/ekanltechnologies/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+        </ul>
+
+      </nav>
+
+      
+
+    </div>
+  </header>
+
+
+<div>
+  {% block content %}{% endblock %}
+
+</div>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="/" class="logo">
+          <img src="https://i.ibb.co/99q9hzMK/logo-light.png" width="74" height="24" alt="Eknal Technologies home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2025 <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/eknaltechnologies/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="linkedin.com/company/eknal-technologies/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        
+
+          <li>
+            <a href="https://www.instagram.com/ekanltechnologies/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Mother Theresa Nagar, Yanam, Pondicherry
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@eknaltechnologies.in" class="footer-link">info@eknaltechnologies.in</a>
+        </li>
+
+        <li>
+          <a href="tel:919486801845" class="footer-link">(+91) 94868 01845</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="/about" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="/projects" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="/contact" class="footer-link">Contact Us</a>
+        </li>
+
+        <!-- <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li> -->
+
+      </ul>
+
+    
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="{{ url_for('static', filename='css/script.js') }}"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
